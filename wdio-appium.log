@@ -1,0 +1,291 @@
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"11","appium:deviceName":"HONOR","appium:automationName":"UiAutomator2","appium:app":"D:\\Dummy\\ApiDemos-debug.apk"},"firstMatch":[{}]},"desiredCapabilities":{"appium:platformName":"Android","appium:platformVersion":"11","appium:deviceName":"HONOR","appium:automationName":"UiAutomator2","appium:app":"D:\\Dummy\\ApiDemos-debug.apk"}}[39m
+[debug] [38;5;16m[AppiumDriver@8410][0m Calling AppiumDriver.createSession() with args: [{"appium:platformName":"Android","appium:platformVersion":"11","appium:deviceName":"HONOR","appium:automationName":"UiAutomator2","appium:app":"D:\\Dummy\\ApiDemos-debug.apk"},null,{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"11","appium:deviceName":"HONOR","appium:automationName":"UiAutomator2","appium:app":"D:\\Dummy\\ApiDemos-debug.apk"},"firstMatch":[{}]}]
+[debug] [38;5;16m[AppiumDriver@8410][0m Event 'newSessionRequested' logged at 1676475274587 (15:34:34 GMT+0000 (Greenwich Mean Time))
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at D:/WDIO/AppiumAllureReport/node_modules/appium-uiautomator2-driver
+[debug] [35m[Appium][39m Requiring driver at D:/WDIO/AppiumAllureReport/node_modules/appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@8410][0m Appium v2.0.0-beta.55 creating new AndroidUiautomator2Driver (v2.12.3) session
+[38;5;16m[AppiumDriver@8410][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@8410][0m Appium's BaseDriver version is 9.3.1
+[38;5;16m[AppiumDriver@8410][0m AndroidUiautomator2Driver's BaseDriver version is 9.3.1
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m Creating session with W3C capabilities: {
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m   "alwaysMatch": {
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m     "platformName": "Android",
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m     "appium:platformVersion": "11",
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m     "appium:deviceName": "HONOR",
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m     "appium:automationName": "UiAutomator2",
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m     "appium:app": "D:\\Dummy\\ApiDemos-debug.apk"
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m   },
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m   "firstMatch": [
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m     {}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m   ]
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0][0m }
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Session created with session id: 87cbbfc0-77c8-4b4e-9c8e-40c493556160
+[38;5;32m[BaseDriver][0m Using local app 'D:\Dummy\ApiDemos-debug.apk'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Checking whether app is actually present
+[38;5;64m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Mehul\AppData\Local\Android\Sdk' (newest first):
+[38;5;64m[ADB][0m     C:/Users/Mehul/AppData/Local/Android/Sdk/build-tools/33.0.1
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;80m[AndroidDriver][0m Retrieving device list
+[debug] [38;5;64m[ADB][0m Trying to find a connected android device
+[debug] [38;5;64m[ADB][0m Getting connected devices
+[debug] [38;5;64m[ADB][0m Connected devices: [{"udid":"A47EUT2901000624","state":"device"}]
+[38;5;80m[AndroidDriver][0m Looking for a device with Android '11.0.0'
+[debug] [38;5;64m[ADB][0m Setting device id to A47EUT2901000624
+[38;5;64m[ADB][0m Getting device platform version
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell getprop ro.build.version.release'
+[debug] [38;5;64m[ADB][0m Current device property 'ro.build.version.release': 11
+[38;5;80m[AndroidDriver][0m Using device: A47EUT2901000624
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[debug] [38;5;64m[ADB][0m Setting device id to A47EUT2901000624
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell getprop ro.build.version.sdk'
+[debug] [38;5;64m[ADB][0m Current device property 'ro.build.version.sdk': 30
+[38;5;64m[ADB][0m Getting device platform version
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell getprop ro.build.version.release'
+[debug] [38;5;64m[ADB][0m Current device property 'ro.build.version.release': 11
+[debug] [38;5;64m[ADB][0m Device API level: 30
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Relaxing hidden api policy
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[debug] [38;5;80m[AndroidDriver][0m Parsing package and activity from app manifest
+[38;5;64m[ADB][0m Package name: 'io.appium.android.apis'
+[38;5;64m[ADB][0m Main activity name: 'io.appium.android.apis.ApiDemos'
+[debug] [38;5;80m[AndroidDriver][0m Parsed package and activity are: io.appium.android.apis/io.appium.android.apis.ApiDemos
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 wait-for-device'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell echo ping'
+[debug] [38;5;80m[AndroidDriver][0m Pushing settings apk to device...
+[debug] [38;5;64m[ADB][0m Getting install status for io.appium.settings
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys package io.appium.settings'
+[debug] [38;5;64m[ADB][0m 'io.appium.settings' is installed
+[debug] [38;5;64m[ADB][0m Getting package info for 'io.appium.settings'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys package io.appium.settings'
+[debug] [38;5;64m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.0.3' >= '5.0.3')
+[debug] [38;5;64m[ADB][0m There is no need to install/upgrade 'D:\WDIO\AppiumAllureReport\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [38;5;64m[ADB][0m Getting IDs of all 'io.appium.settings' processes
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell 'pgrep --help; echo $?''
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] [38;5;80m[AndroidDriver][0m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell appops set io.appium.settings android:mock_location allow'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell "[ -e '/data/local/tmp/mock_apps.json' ] && echo __PASS__"'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell cat /data/local/tmp/mock_apps.json'
+[debug] [38;5;96m[Logcat][0m Starting logs capture with command: C:\\Users\\Mehul\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s A47EUT2901000624 logcat -v threadtime
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] [38;5;64m[ADB][0m Forwarding system: 8200 to device: 6790
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 forward tcp:8200 tcp:6790'
+[debug] [38;5;64m[ADB][0m Getting install status for io.appium.uiautomator2.server
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [38;5;64m[ADB][0m 'io.appium.uiautomator2.server' is installed
+[debug] [38;5;64m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [38;5;64m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.7.7' >= '5.7.7')
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] [38;5;64m[ADB][0m Checking app cert for D:\WDIO\AppiumAllureReport\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.7.7.apk
+[38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Mehul\AppData\Local\Android\Sdk\build-tools\33.0.1\lib\apksigner.jar'
+[debug] [38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-19\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Mehul\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.1\\lib\\apksigner.jar verify --print-certs D:\\WDIO\\AppiumAllureReport\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.7.7.apk
+[debug] [38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [38;5;64m[ADB][0m 
+[debug] [38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-v5.7.7.apk'
+[38;5;64m[ADB][0m 'D:\WDIO\AppiumAllureReport\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.7.7.apk' is signed with the default certificate
+[debug] [38;5;64m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] [38;5;64m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[debug] [38;5;64m[ADB][0m Checking app cert for D:\WDIO\AppiumAllureReport\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-19\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Mehul\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.1\\lib\\apksigner.jar verify --print-certs D:\\WDIO\\AppiumAllureReport\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [38;5;64m[ADB][0m 
+[debug] [38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;64m[ADB][0m 'D:\WDIO\AppiumAllureReport\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Server packages are not going to be (re)installed
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Waiting up to 30000ms for services to be available
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell pm list instrumentation'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[debug] [38;5;64m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[debug] [38;5;64m[ADB][0m Checking app cert for D:\Dummy\ApiDemos-debug.apk
+[debug] [38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-19\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Mehul\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.1\\lib\\apksigner.jar verify --print-certs D:\\Dummy\\ApiDemos-debug.apk
+[debug] [38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: ff2c1b0d041edb6e32a5f7c190ca9c3e78c4ca2cddbbb76133fc30c40b291e30
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: b3de7d52e6aa703f166c4ee6e921c2816278c393
+[debug] [38;5;64m[ADB][0m Signer #1 certificate MD5 digest: 7dce13e4e43fbe159a70f7a252cb0acf
+[debug] [38;5;64m[ADB][0m 
+[38;5;64m[ADB][0m 'D:\Dummy\ApiDemos-debug.apk' is signed with a non-default certificate
+[debug] [38;5;64m[ADB][0m Getting install status for io.appium.android.apis
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys package io.appium.android.apis'
+[debug] [38;5;64m[ADB][0m 'io.appium.android.apis' is installed
+[debug] [38;5;64m[ADB][0m Getting package info for 'io.appium.android.apis'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys package io.appium.android.apis'
+[debug] [38;5;64m[ADB][0m The version name of the installed 'io.appium.android.apis' is greater or equal to the application version name ('3.3.1' >= '3.3.1')
+[debug] [38;5;64m[ADB][0m There is no need to install/upgrade 'D:\Dummy\ApiDemos-debug.apk'
+[38;5;80m[AndroidDriver][0m Performing fast reset on 'io.appium.android.apis'
+[debug] [38;5;64m[ADB][0m Getting install status for io.appium.android.apis
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys package io.appium.android.apis'
+[debug] [38;5;64m[ADB][0m 'io.appium.android.apis' is installed
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell am force-stop io.appium.android.apis'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell pm clear io.appium.android.apis'
+[debug] [38;5;80m[AndroidDriver][0m Performed fast reset on the installed 'io.appium.android.apis' application (stop and clear)
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Performing shallow cleanup of automation leftovers
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m No obsolete sessions have been detected (socket hang up)
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Starting UIAutomator2 server 5.7.7
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Using UIAutomator2 server from 'D:\WDIO\AppiumAllureReport\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.7.7.apk' and test from 'D:\WDIO\AppiumAllureReport\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [38;5;64m[ADB][0m Creating ADB subprocess with args: ["-P",5037,"-s","A47EUT2901000624","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m socket hang up
+[debug] [38;5;112m[Instrumentation][0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m socket hang up
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m The initialization of the instrumentation process took 2113ms
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/session' to command name 'createSession'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"11","deviceName":"HONOR","automationName":"UiAutomator2","app":"D:\\Dummy\\ApiDemos-debug.apk"},"platformName":"Android","platformVersion":"11","deviceName":"A47EUT2901000624","automationName":"UiAutomator2","app":"D:\\Dummy\\ApiDemos-debug.apk","deviceUDID":"A47EUT2901000624","appPackage":"io.appium.android.apis"}],"alwaysMatch":{}}}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"11","deviceName":"HONOR","automationName":"UiAutomator2","app":"D:\\Dummy\\ApiDemos-debug.apk"},"platformName":"Android","platformVersion":"11","deviceName":"A47EUT2901000624","automationName":"UiAutomator2","app":"D:\\Dummy\\ApiDemos-debug.apk","deviceUDID":"A47EUT2901000624","appPackage":"io.appium.android.apis"}],"alwaysMatch":{}},"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169"}}
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Determined the downstream protocol as 'W3C'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/appium/device/info] with no body
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":{"androidId":"f87bb483cd54ee06","apiVersion":"30","bluetooth":{"state":"OFF"},"brand":"HONOR","carrierName":"","displayDensity":480,"locale":"en_GB","manufacturer":"HONOR","model":"ANY-NX1","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":35750,"linkUpstreamBandwidthKbps":47025,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-65,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"11","realDisplaySize":"1080x2388","timeZone":"Europe/London"}}
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys window'
+[38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Starting 'io.appium.android.apis/io.appium.android.apis.ApiDemos and waiting for 'io.appium.android.apis/io.appium.android.apis.ApiDemos'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell am start -W -n io.appium.android.apis/io.appium.android.apis.ApiDemos -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [38;5;64m[ADB][0m Waiting up to 20000ms for activity matching pkg: 'io.appium.android.apis' and activity: 'io.appium.android.apis.ApiDemos' to be focused
+[debug] [38;5;64m[ADB][0m Possible activities, to be checked: 'io.appium.android.apis.ApiDemos', 'io.appium.android.apis.io.appium.android.apis.ApiDemos'
+[debug] [38;5;64m[ADB][0m Getting focused package and activity
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys window displays'
+[debug] [38;5;64m[ADB][0m Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/appium/device/pixel_ratio] with no body
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":3}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/appium/device/system_bars] with no body
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":{"statusBar":90}}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/window/current/size] with no body
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":{"height":2298,"width":1080}}
+[38;5;16m[AppiumDriver@8410][0m New AndroidUiautomator2Driver session created successfully, session 87cbbfc0-77c8-4b4e-9c8e-40c493556160 added to master session list
+[debug] [38;5;16m[AppiumDriver@8410][0m Event 'newSessionStarted' logged at 1676475283063 (15:34:43 GMT+0000 (Greenwich Mean Time))
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Cached the protocol value 'W3C' for the new session 87cbbfc0-77c8-4b4e-9c8e-40c493556160
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"11","deviceName":"HONOR","automationName":"UiAutomator2","app":"D:\\Dummy\\ApiDemos-debug.apk"},"platformName":"Android","platformVersion":"11","deviceName":"A47EUT2901000624","automationName":"UiAutomator2","app":"D:\\Dummy\\ApiDemos-debug.apk","deviceUDID":"A47EUT2901000624","appPackage":"io.appium.android.apis","deviceApiLevel":30,"deviceScreenSize":"1080x2388","deviceScreenDensity":480,"deviceModel":"ANY-NX1","deviceManufacturer":"HONOR","pixelRatio":3,"statBarHeight":90,"viewportRect":{"left":0,"top":90,"width":1080,"height":2208}}}
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m8480 ms - 870[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"class name","value":"android.widget.TextView"}[39m
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Calling AppiumDriver.findElement() with args: ["class name","android.widget.TextView","87cbbfc0-77c8-4b4e-9c8e-40c493556160"]
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/element] with body: {"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":false}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":{"ELEMENT":"00000000-0000-018a-ffff-ffff00000005","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018a-ffff-ffff00000005"}}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018a-ffff-ffff00000005","ELEMENT":"00000000-0000-018a-ffff-ffff00000005"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element [39m[32m200[39m [90m316 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018a-ffff-ffff00000005/text[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018a-ffff-ffff00000005/text' to command name 'getText'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [GET /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018a-ffff-ffff00000005/text] to [GET http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/element/00000000-0000-018a-ffff-ffff00000005/text] with no body
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":"API Demos"}
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Replacing sessionId 89a2c8fa-7697-4414-be7c-1c3720174169 with 87cbbfc0-77c8-4b4e-9c8e-40c493556160
+[38;5;0m[HTTP][0m [37m<-- GET /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018a-ffff-ffff00000005/text [39m[32m200[39m [90m16 ms - 72[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Animation"}[39m
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Animation","87cbbfc0-77c8-4b4e-9c8e-40c493556160"]
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/element] with body: {"strategy":"accessibility id","selector":"Animation","context":"","multiple":false}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":{"ELEMENT":"00000000-0000-018a-ffff-ffff0000000a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018a-ffff-ffff0000000a"}}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018a-ffff-ffff0000000a","ELEMENT":"00000000-0000-018a-ffff-ffff0000000a"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element [39m[32m200[39m [90m21 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018a-ffff-ffff0000000a/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Calling AppiumDriver.click() with args: ["00000000-0000-018a-ffff-ffff0000000a","87cbbfc0-77c8-4b4e-9c8e-40c493556160"]
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/element/00000000-0000-018a-ffff-ffff0000000a/click' to command name 'click'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [POST /element/00000000-0000-018a-ffff-ffff0000000a/click] to [POST http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/element/00000000-0000-018a-ffff-ffff0000000a/click] with body: {"element":"00000000-0000-018a-ffff-ffff0000000a"}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":null}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018a-ffff-ffff0000000a/click [39m[32m200[39m [90m800 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Cloning"}[39m
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Cloning","87cbbfc0-77c8-4b4e-9c8e-40c493556160"]
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/element] with body: {"strategy":"accessibility id","selector":"Cloning","context":"","multiple":false}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":{"ELEMENT":"00000000-0000-018b-ffff-ffff0000001e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018b-ffff-ffff0000001e"}}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018b-ffff-ffff0000001e","ELEMENT":"00000000-0000-018b-ffff-ffff0000001e"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element [39m[32m200[39m [90m33 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018b-ffff-ffff0000001e/displayed[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-018b-ffff-ffff0000001e","87cbbfc0-77c8-4b4e-9c8e-40c493556160"]
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/element/00000000-0000-018b-ffff-ffff0000001e/attribute/displayed' to command name 'getAttribute'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [GET /element/00000000-0000-018b-ffff-ffff0000001e/attribute/displayed] to [GET http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/element/00000000-0000-018b-ffff-ffff0000001e/attribute/displayed] with no body
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":"true"}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Responding to client with driver.elementDisplayed() result: true
+[38;5;0m[HTTP][0m [37m<-- GET /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018b-ffff-ffff0000001e/displayed [39m[32m200[39m [90m21 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Events"}[39m
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Events","87cbbfc0-77c8-4b4e-9c8e-40c493556160"]
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/element] with body: {"strategy":"accessibility id","selector":"Events","context":"","multiple":false}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":{"ELEMENT":"00000000-0000-018b-ffff-ffff00000021","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018b-ffff-ffff00000021"}}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018b-ffff-ffff00000021","ELEMENT":"00000000-0000-018b-ffff-ffff00000021"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element [39m[32m200[39m [90m33 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018b-ffff-ffff00000021/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Calling AppiumDriver.click() with args: ["00000000-0000-018b-ffff-ffff00000021","87cbbfc0-77c8-4b4e-9c8e-40c493556160"]
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/element/00000000-0000-018b-ffff-ffff00000021/click' to command name 'click'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [POST /element/00000000-0000-018b-ffff-ffff00000021/click] to [POST http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169/element/00000000-0000-018b-ffff-ffff00000021/click] with body: {"element":"00000000-0000-018b-ffff-ffff00000021"}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":null}
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160/element/00000000-0000-018b-ffff-ffff00000021/click [39m[32m200[39m [90m782 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/87cbbfc0-77c8-4b4e-9c8e-40c493556160[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Calling AppiumDriver.deleteSession() with args: ["87cbbfc0-77c8-4b4e-9c8e-40c493556160"]
+[debug] [38;5;16m[AppiumDriver@8410][0m Event 'quitSessionRequested' logged at 1676475285269 (15:34:45 GMT+0000 (Greenwich Mean Time))
+[38;5;16m[AppiumDriver@8410][0m Removing session 87cbbfc0-77c8-4b4e-9c8e-40c493556160 from our master session list
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Deleting UiAutomator2 session
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Deleting UiAutomator2 server session
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Matched '/' to command name 'deleteSession'
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/89a2c8fa-7697-4414-be7c-1c3720174169] with no body
+[debug] [38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Got response with status 200: {"sessionId":"89a2c8fa-7697-4414-be7c-1c3720174169","value":null}
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell am force-stop io.appium.android.apis'
+[debug] [38;5;96m[Logcat][0m Stopping logcat capture
+[debug] [38;5;64m[ADB][0m Removing forwarded port socket connection: 8200 
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 forward --remove tcp:8200'
+[38;5;48m[AndroidUiautomator2Driver@20c0 (87cbbfc0)][0m Restoring hidden api policy to the device default configuration
+[debug] [38;5;64m[ADB][0m Running 'C:\Users\Mehul\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s A47EUT2901000624 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[debug] [38;5;112m[Instrumentation][0m .
+[debug] [38;5;112m[Instrumentation][0m Time: 5.051
+[debug] [38;5;112m[Instrumentation][0m 
+[debug] [38;5;112m[Instrumentation][0m OK (1 test)
+[debug] [38;5;16m[AppiumDriver@8410][0m Event 'quitSessionFinished' logged at 1676475285707 (15:34:45 GMT+0000 (Greenwich Mean Time))
+[debug] [38;5;16m[AppiumDriver@8410][0m Received response: null
+[debug] [38;5;16m[AppiumDriver@8410][0m But deleting session, so not returning
+[debug] [38;5;16m[AppiumDriver@8410][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/87cbbfc0-77c8-4b4e-9c8e-40c493556160 [39m[32m200[39m [90m440 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[debug] [38;5;112m[Instrumentation][0m The process has exited with code 0
