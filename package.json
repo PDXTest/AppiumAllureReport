@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "appium": "^2.0.0-beta.35",
+    "appium": "^2.0.0-beta.42",
     "wdio": "^6.0.1"
   },
   "devDependencies": {
@@ -16,9 +16,9 @@
     "typescript": "^4.9.5"
   },
   "scripts": {
-    "test": "npx wdio run wdio.conf.ts",
-    "pretest": "rimraf allure-results && rimraf allure-report && rimraf test-screenshots && rimraf wdio-logs",
-    "posttest": "allure generate --clean && allure open"
+            "test": "npx wdio run wdio.conf.ts",
+            "pretest": "rimraf allure-results && rimraf allure-report",
+            "posttest": "allure generate --clean && allure open"
 
   }
 }

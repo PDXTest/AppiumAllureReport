@@ -62,11 +62,11 @@ export const config: Options.Testrunner = {
     //
     capabilities: [{
     
-        "appium:platformName": "Android",
-        "appium:platformVersion": "11",
+        platformName: "Android",
+        "appium:platformVersion": "13",
         "appium:deviceName": "HONOR",
         "appium:automationName": "UiAutomator2",
-        "appium:app": "D:\\Dummy\\ApiDemos-debug.apk"
+        "appium:app": "C:\\Dummy\\ApiDemos-debug.apk"
     }],
     //
     // ===================
@@ -122,7 +122,7 @@ export const config: Options.Testrunner = {
         args:{
             address: '127.0.0.1',
             port: 4723,
-       
+                 
         },
         logPath:'./',
              
